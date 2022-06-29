@@ -26,7 +26,7 @@ defined( 'ABSPATH' ) || exit;
     </thead>
     <tbody>
         <?php 
-            $dataDetails = $wpdb->get_results("SELECT * FROM $table_name");
+            $dataDetails = get_users();
             foreach($dataDetails as $dataDetailKey => $dataDetailVal){ 
             ?>
                 <tr>
