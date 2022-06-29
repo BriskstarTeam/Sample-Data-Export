@@ -1,0 +1,12 @@
+div#dtlist_wrapper {
+    margin-top: 20px;
+    width: 98%;
+}
+a#dtlist_next {
+    margin-left: 10px;
+}
+a#dtlist_previous {
+    margin-right: 10px;
+}
+.dataTables_length { float: left; }
+.errormsg{color: red}
